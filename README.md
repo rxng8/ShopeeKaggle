@@ -12,7 +12,10 @@ This project is created for academic purpose and also available publicly. More i
 * Install the prerequisite library:
   ```
   pip install -r requirements.txt
+  # or
+  conda env create -f environment.yml
   ```
+I recommend you use conda virtual environment and use the conda command instead of pip
 
 # Run the project
 Go to [`notebook.py`](./notebook.py) to evaluate each cell.
@@ -31,11 +34,21 @@ Go to [`notebook.py`](./notebook.py) to evaluate each cell.
   *  **[1 hours]** Writing pandas dataframe data analysis (groupby, concatenation)
   *  **[1 hours]** Wrting [`notebook.py`](./notebook.py).
 
+## Week 10: April 5 - April 9:
+* [**1 hours**] Set up virtual environment. Look at the file [`requirements.txt`](./requirements.txt) and [`environment.yml`](./environment.yml):
+  * Add tensorflow library.
+  * Add open cv library.
+  * Add pytorch library.
+  * Add other realted library: tensorboard, tfmodel, etc.
+  * Update documentation about the environment requirements and installation.
+* [**2 hours**]
+  * Research about TF-IDF model, code it in the [`notebook`](./notebook.py)
+* [**3 hours**] Reasearch about the Facebook's FAISS text to vector store. For the use of finding nearest text vector instead of using neighboring algorithms.
+* [**2 hours**] Research about how to code K-nearest neighbor in the context of the text. Train the K-nearest neighbor model on the dataset of over 65,000 instances.
+* [**1 hours**] Finish the notebook pipeline using sklearn without parameters tuned and create submission.
 ---------------
 
 # Tentative:
-
-## Week 10: April 5 - April 9:
 
 ## Week 11: April 12 - April 15:
 
