@@ -75,3 +75,6 @@ class ShopeeTorch(ShopeeDataset, torch.utils.data.Dataset):
 
     def __len__(self) -> int:
         return len(self.df)
+
+    def n_labels(self) -> int:
+        pass
