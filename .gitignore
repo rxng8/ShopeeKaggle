@@ -2,3 +2,5 @@ dataset/*
 !dataset/.dataset
 .vscode
 **.npy
+**.pyc
+**__pycache__/
