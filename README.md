@@ -46,11 +46,22 @@ Go to [`notebook.py`](./notebook.py) to evaluate each cell.
 * [**3 hours**] Reasearch about the Facebook's FAISS text to vector store. For the use of finding nearest text vector instead of using neighboring algorithms.
 * [**2 hours**] Research about how to code K-nearest neighbor in the context of the text. Train the K-nearest neighbor model on the dataset of over 65,000 instances.
 * [**1 hours**] Finish the notebook pipeline using sklearn without parameters tuned and create submission.
+
+## Week 11: April 12 - April 15:
+* [**1 hours**] Write [`utils`](./core/utils.py) class for image preprocessing, ram, cpu, and gpu control when training pytorch model. Install libraries and update [`environment.yml`](environment.yml) and [`requirements.txt`](requirements.txt).
+* [**4 hours**] Write pytorch transfer learning pipeline in [`notebook.py`](./notebook.py).
+  * Pytorch dataset
+  * Image transpose
+  * Initialize model method which dynamically initialize model with names.
+* [**2 hours**] Read and research about FAISS algorithms from Facebook:
+  * Reference: [https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/)
+  * Run test on 1-million-random-vectors with dimension 50.
+  * This algorithm is very fast for vector searching.
+* [**2 hours**] Train and export KNN numpy vector model (distances, indices). Prepare work for next week's prediction.
+
 ---------------
 
 # Tentative:
-
-## Week 11: April 12 - April 15:
 
 ## Week 12: April 18 - April 22:
 
