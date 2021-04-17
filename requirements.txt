@@ -7,6 +7,7 @@ chardet==4.0.0
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 cycler==0.10.0
 decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
+efficientnet-pytorch==0.7.1
 flatbuffers==1.12
 gast==0.3.3
 google-auth==1.28.1
