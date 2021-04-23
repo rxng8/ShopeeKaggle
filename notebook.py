@@ -17,13 +17,16 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import utils
 from torchvision import transforms as T
 
+import faiss
+
 import cv2
 import tensorflow as tf
 from tensorflow.keras.applications import EfficientNetB0
 print('TF',tf.__version__)
 
 from sklearn.decomposition import PCA
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+
 
 # Ignore warnings
 import warnings
@@ -132,6 +135,37 @@ Reference: https://www.kaggle.com/cdeotte/rapids-cuml-tfidfvectorizer-and-knn
 model = TfidfVectorizer(stop_words='english', binary=True)
 text_embeddings = model.fit_transform(ds.df.title).toarray()
 print('text embeddings shape is',text_embeddings.shape)
+
+# %%
+
+dim = text_embeddings.shape[1]
+n = text_embeddings.shape[0]
+
+
+xb = np.random.normal(size=(n, dim)) # normal distribution with mean 0 std 1
+
+index = faiss.IndexFlatL2(dim)   # build the index, d=size of vectors 
+# here we assume xb contains a n-by-d numpy matrix of type float32
+index.add(xb)                  # add vectors to the index
+print(index.ntotal)
+
+
+# %%
+
+# list of text documents
+text = ["The quick brown fox jumped over the lazy dog."]
+# create the transform
+vectorizer = CountVectorizer()
+# tokenize and build vocab
+vectorizer.fit(text)
+# summarize
+print(vectorizer.vocabulary_)
+# encode document
+vector = vectorizer.transform(text)
+# summarize encoded vector
+print(vector.shape)
+print(type(vector))
+print(vector.toarray())
 
 # %%
 

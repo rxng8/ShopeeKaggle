@@ -59,11 +59,25 @@ Go to [`notebook.py`](./notebook.py) to evaluate each cell.
   * This algorithm is very fast for vector searching.
 * [**2 hours**] Train and export KNN numpy vector model (distances, indices). Prepare work for next week's prediction.
 
+## Week 12: April 18 - April 22:
+* [**2 hours**] Read the paper [Billion-scale similarity search with GPUs](https://arxiv.org/abs/1702.08734) and try to go through the algorithms.
+* [**0.5 hours**] Write utilities function that can be seen in `utils.py`:
+  * `preprocess()` method to use in preprocessing the test set.
+  * `rgb2gray()` converts the 3-channel image to grayscale image.
+  * `ConvNet` tensorflow model class which evaluate the images.
+  * Other supporting layer methods such as `down_conv()`, `dropout_layer()`, etc.
+* [**4.5 hours**] Examine the ways to convert words to vectors:
+  * [**1.5 hours**] Read, research, and Implement TF-IDF Vectorizers in file `vectorizers.py`
+  * [**1 hour**] Read of about bags of words.
+  * [**1.5 hours**] Read about how to use the Embedding layer in Deep learning to embed the text to vector with machine.
+  * [**0.5 hours**] Write test template for classes of word vectorizers in file `word2vec.py`
+* [**0.5 hours**] Test FAISS with vectors and visualize in `faiss_test.py`
+* [**1.5 hours**] Work on the FAISS Application in the actual program `notebook.py`, fitted data vectors from tfidf vectorizers. Plan to use text embedding next week.
 ---------------
 
 # Tentative:
 
-## Week 12: April 18 - April 22:
+
 
 ## Week 13: April 25 - April 28:
 
