@@ -23,6 +23,27 @@ Go to [`notebook.py`](./notebook.py) to evaluate each cell.
 ---------------
 # Project Backlog:
 
+<details>
+  <summary> <h1>Other works</h1> </summary>
+
+  ## Week 1: Feb 1 - Feb 5: [Chest X-ray project week 1](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-1-feb-1---feb-5)
+
+  ## Week 2: Feb 8 - Feb 12: [Chest X-ray project week 2](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-2-feb-8---feb-12)
+
+  ## Week 3: Feb 15 - Feb 19: [Chest X-ray project week 3](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-3-feb-15---feb-19)
+
+  ## Week 4: Feb 22 - Feb 26: [Chest X-ray project week 4](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-4-feb-22---feb-26)
+
+  ## Week 5: March 1 - March 5: [Chest X-ray project week 5](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-5-march-1---march-5)
+
+  ## Week 6: March 8 - March 12: [Chest X-ray project week 6](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-6-march-8---march-12)
+
+  ## Week 7: March 15 - March 19: [Chest X-ray project week 7](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-7-march-15---march-19)
+
+  ## Week 8: March 22 - March 26: [Chest X-ray project week 8](https://github.com/rxng8/Chest-Xray-Abnormalities-Detection#week-8-march-22---march-26)
+  
+</details>
+
 ## Week 9: March 29 - April 2:
 * **[3 hours]** Analyzing the nature of the data.
   * **[2 hours]** Analyzing the models should be used: TFIDF and ResNEt Transfer learning.
@@ -73,13 +94,17 @@ Go to [`notebook.py`](./notebook.py) to evaluate each cell.
   * [**0.5 hours**] Write test template for classes of word vectorizers in file `word2vec.py`
 * [**0.5 hours**] Test FAISS with vectors and visualize in `faiss_test.py`
 * [**1.5 hours**] Work on the FAISS Application in the actual program `notebook.py`, fitted data vectors from tfidf vectorizers. Plan to use text embedding next week.
+
+<details>
+  <summary> <h1>Other works</h1> </summary>
+
+  ## Week 13: April 25 - April 28: [Faster R-CNN Research Week 13](https://github.com/rxng8/Faster-R-CNN-Research#week-13-april-25---april-28)
+  
+</details>
+
 ---------------
 
 # Tentative:
-
-
-
-## Week 13: April 25 - April 28:
 
 ## Week 14: May 1 - May 5:
 
