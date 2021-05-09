@@ -100,17 +100,9 @@ Go to [`notebook.py`](./notebook.py) to evaluate each cell.
 
   ## Week 13: April 25 - April 28: [Faster R-CNN Research Week 13](https://github.com/rxng8/Faster-R-CNN-Research#week-13-april-25---april-28)
   
+  ## Week 14: May 1 - May 5: [Faster R-CNN Research Week 13](https://github.com/rxng8/Faster-R-CNN-Research#week-14-may-2---may-6)
+
 </details>
-
----------------
-
-# Tentative:
-
-## Week 14: May 1 - May 5:
-
-## Week 15: May 8 - May 12:
-
-## Week 16: May 15 - May 19:
 
 -----------------
 
